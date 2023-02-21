@@ -239,6 +239,9 @@ p.text-content{
   .search-bar{
     margin: 30px;
     width: calc(55% - 60px);
+    padding: 10px;
+    display: flex;
+    align-items: center;
     box-sizing: border-box;
   }
 
@@ -294,11 +297,15 @@ p.text-content{
   @media (max-width: 630px) {
 
     .pattern-tablet{
-      top: 335.5px;
-      width: calc(35% + 1px);
-      height: calc(100vh - 35.5px);
+      width: 100vw;
+      position: unset;
+      height: 200px;
+      margin-top: 40px;
     }
 
+    header{
+      justify-content: center;
+    }
 
     h1.rubrik{
       font-size: 1.5rem;
@@ -306,13 +313,18 @@ p.text-content{
     }
 
     .search-bar{
-      width: calc(65% - 20px);
-      margin: 10px;
+      margin: 30px 10px;
+      width: calc(100% - 20px);
     }
 
     main {
-      width: calc(65% - 10px);
-      padding-right: 10px;
+      width: 100%;
+      padding: 0;
+    }
+
+    .content-container{
+      margin: 10px;
+      text-align: center;
     }
 
     .text-btn-conatiner{
