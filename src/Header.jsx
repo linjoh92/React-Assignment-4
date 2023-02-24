@@ -9,7 +9,7 @@ const Header = () => {
             <div>RAMVERK · JAVASCRIPT · REACT · API-ASGMT</div>
         </div>
         <div className='search-bar'>
-            <input type='text' className='search' placeholder='SEARCH:'></input>
+            <div type='text' className='search'>SERACH:<span>This is just for design</span></div>
         </div>
     </header>
   )

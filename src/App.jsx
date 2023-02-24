@@ -6,12 +6,12 @@ import Header from './Header'
 import Pattern from './Pattern'
 
 function App() {
- 
+  
 
   return (
 
     <div className="App">
-
+      
       <Header/>
       <Main/>
       <Pattern/>
