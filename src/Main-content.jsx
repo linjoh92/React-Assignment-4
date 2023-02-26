@@ -34,7 +34,7 @@ const Main = () => {
 
   return (
     <main>
-        <img className='logo' src={logotype} alt="logo" width='350px'/>
+        <img className='logo' src={logotype} alt="logo"/>
 
         <div className='content-container'>
           <div className='rubrik-container'>
@@ -48,7 +48,7 @@ const Main = () => {
               <p className='text-content'>E:{user.email}</p>
             </div>
             <div className='btn-container'>
-              <button onClick={handleButtonClick} className='btn'>NEW FAKE USER</button>
+              <button onClick={handleButtonClick} className='btn'>NEW USER</button>
               <a href="https://www.freepik.com/free-psd/landing-page-graphic-design-courses_14573156.htm#&position=4&from_view=user" target="_blank"><button className='btn'>FREEPIK - UX</button></a>
             </div>
           </div>
