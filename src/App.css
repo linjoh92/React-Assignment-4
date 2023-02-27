@@ -366,7 +366,7 @@ p.text-content{
     }
 
     .header-text{
-      padding: 0 40px;
+      padding: 10px 40px;
       gap: 0;
       display: grid;
       grid-template: 1fr / 2fr 1fr 2fr 1fr;
@@ -375,7 +375,7 @@ p.text-content{
     .header-text span{
       display: flex;
       justify-content: center;
-      height: 38px;
+      height: 25px;
     }
 
     h1.rubrik{
