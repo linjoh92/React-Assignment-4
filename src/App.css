@@ -366,7 +366,8 @@ p.text-content{
     }
 
     .header-text{
-      padding: 0 20px;
+      padding: 0 40px;
+      gap: 0;
       display: grid;
       grid-template: 1fr / 2fr 1fr 2fr 1fr;
     }
@@ -385,6 +386,11 @@ p.text-content{
     .search-bar{
       margin: 30px 10px;
       width: calc(100% - 20px);
+    }
+
+    .search , .header-text {
+      font-size: 1.1rem;
+      letter-spacing: 0.1rem;
     }
 
     main {
