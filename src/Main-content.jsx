@@ -49,7 +49,7 @@ const Main = () => {
             </div>
             <div className='btn-container'>
               <button onClick={handleButtonClick} className='btn'>NEW USER</button>
-              <a href="https://www.freepik.com/free-psd/landing-page-graphic-design-courses_14573156.htm#&position=4&from_view=user" target="_blank"><button className='btn'>FREEPIK - UX</button></a>
+              <a href="https://www.freepik.com/free-psd/landing-page-graphic-design-courses_14573156.htm#&position=4&from_view=user"><button className='btn'>FREEPIK - UX</button></a>
             </div>
           </div>
         </div>
