@@ -25,7 +25,6 @@ const Main = () => {
       setUserContry(activUser.location) 
       setUser(activUser) 
       setUserAge(activUser.dob)
-      console.log(data)
   };
 
   const handleButtonClick = () => {
