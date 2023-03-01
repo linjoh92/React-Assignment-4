@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './App.css'
 import './fonts/fonts.css'
 import Main from './Main-content'
